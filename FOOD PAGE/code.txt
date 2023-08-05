@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <div class="header">
+      <h2><center><b>MR.FOODIE<b></center></h2><br><br><br> 
+      </div>
+    <style>
+      .header{
+        
+          color: rgb(0, 0, 0)
+      }
+
+        .first img{
+
+            width:1500px;
+            height:1100px;
+        }
+        .second img{
+            width:700px;
+            height:600px;
+        }
+        .second p{
+              font-style: oblique;
+              margin-left: 750px;
+              margin-top: -500px;
+              width: 700px;
+              text-align: justify;
+        }
+       .top{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -30px;
+        text-overflow: clip;
+        -webkit-text-fill-color: black;
+        
+       }
+       .three img{
+         width:1000px;
+         height: 700px;
+         margin-left: 500px;
+         margin-top: -50px;
+
+       }
+       .new img{
+         border: 1px solid rgba(0, 0, 0, 0.1); 
+         width:800px;
+         height:450;
+       }
+       .three{
+           font-size: 30px;
+       }
+       
+    </style>
+       
+
+        
+            <body>
+                <div class="first"> 
+                    <img src="C:\Users\lenovo\Downloads\HTML\bar.jpg" alt="ij" >
+                </div>
+
+
+<CENTER><H1> ABOUT US</H1></CENTER>
+
+        <div class="second">
+          <img src="C:\Users\lenovo\Downloads\HTML\photography-pavel-sablya-03-scaled.jpg" >
+          <br>
+            <p>Tradition since 1889
+                
+           <b>The Catering was founded in blabla by Mr. vuahy in lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor
+             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use 
+             seasonal ingredients.
+            
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+            
+            id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore 
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+             ex ea commodo consequat.
+             Great menu: yes please! A good menu is a deal-breaker any day, after all, good food is top priority for virtually everyone. For a restaurant to qualify as great, it should have a menu that is thorough and spell-checked. One that offers a wide range of dishes as well as a clear cut description of what each meal actually is, so as to make it easy for the customer to know what exactly they should be expecting and an idea of how long he or she might have to wait for the meal to arrive.
+
+             A good restaurant must have good food, it’s absolutely necessary. In order to do this, it must also have great quality commercial equipment (learn more here) to be able to make the dishes. A restaurant that has a great menu and good food, will definitely have great reviews and have people coming back over and over again.
+             
+             Great service: if the service is good then it’s a good place to be. A great service can make all of the difference in the world. Everybody loves to be in a restaurant that has a good and attentive staff. A place where they pay attention to details and have regard for the feelings of the customer. When you go to a place where they make it a priority for the customer to leave happy, you would definitely pay a second visit as well as recommend it to your Loved ones.</b></p>
+          </div>
+          <br><br><br><br><br><br><br><br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div2 class="three"id="contact">
+        <img src="C:\Users\lenovo\Downloads\HTML\jodk.jpg" alt="img" > <br><br><br>
+        <br><br>
+
+            <h1>Contact</h1>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+            <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            <br><br>
+            <center><form action="/action_page.php" target="_blank">
+              <p><input class="three" type="text" placeholder="Name" required name="Name"></p>
+              <p><input class="three" type="number" placeholder="How many people" required name="People"></p>
+              <p><input class="three" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+              <p><input class="three" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+              <p><button class="three" type="submit">SEND MESSAGE</button></p></center>
+            </form>
+          
+            
+            <script>
+              var c = document.getElementById("myCanvas");
+              var ctx = c.getContext("2d");
+              
+              // Create gradient
+              var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+              grd.addColorStop(0, "red");
+              grd.addColorStop(1, "white");
+              
+              // Fill with gradient
+              ctx.fillStyle = grd;
+              ctx.fillRect(10, 10, 150, 80);
+              </script>
+              
+          
+          
+
+        </body>
+    </head>
+</html>
